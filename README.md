@@ -20,6 +20,8 @@ Uses synthetic PaySim transactions to compare fraud-risk models, build past-only
 
 [Open the project](fraud-graph/README.md) · [Architecture](fraud-graph/docs/architecture.md) · [Model card](fraud-graph/docs/model_card.md)
 
+Earlier standalone notebooks are kept together in [notebooks/](notebooks/).
+
 ## Skills and tools
 
 - **Programming:** Python, SQL
