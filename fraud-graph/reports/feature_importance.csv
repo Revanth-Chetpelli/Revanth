@@ -1,0 +1,14 @@
+feature,importance
+amount,1594
+step,1419
+oldbalanceOrg,1368
+oldbalanceDest,603
+prior_incoming_amount,392
+prior_incoming_count,241
+type_CASH_OUT,148
+type_TRANSFER,147
+type_CASH_IN,40
+type_PAYMENT,39
+type_DEBIT,7
+prior_outgoing_amount,2
+prior_outgoing_count,0

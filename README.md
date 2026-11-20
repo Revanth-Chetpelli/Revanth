@@ -1,54 +1,32 @@
-  # 👋 Hi, I'm Revanth
+# Hi, I'm Revanth
 
-🎓 B.Tech (Electronics & Communication Engineering) Student  
-💡 Aspiring AI/ML Engineer & Data Analyst  
-📊 Passionate about Data Science, Machine Learning, and Analytics  
+Electronics and Communication Engineering graduate focused on **data science, analytics, and machine learning**. I enjoy turning datasets into useful models and clear, practical tools.
 
----
+## Selected projects
 
-## 🚀 About Me
-- 🔭 Currently working on **Machine Learning & Data Analytics projects**
-- 🌱 Learning **Advanced ML, Deep Learning, and Data Visualization**
-- 💡 Interested in solving real-world problems using **AI & Data**
-- 🎯 Looking for opportunities as an **AIML / Data Analyst Fresher**
+### Urban Mobility Intelligence
 
----
+Forecasts hourly NYC taxi pickups by zone using historical demand, calendar, and weather context. Includes anomaly review, a FastAPI service, and an interactive Streamlit map dashboard.
 
-## 🛠️ Skills
+**Tools:** Python, pandas, LightGBM, FastAPI, Streamlit, geospatial data
 
-### 💻 Programming
-- Python  
-- SQL  
+[Open the project](urban-mobility/README.md) · [Architecture](urban-mobility/docs/ARCHITECTURE.md) · [Demo guide](urban-mobility/docs/DEMO_GUIDE.md)
 
-### 📊 Data Analytics
-- Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Data Visualization  
+### Fraud and Money-Laundering Detection
 
-### 🤖 Machine Learning
-- Linear Regression  
-- Logistic Regression  
-- K-Nearest Neighbors (KNN)  
-- Decision Trees & Random Forest  
-- K-Means Clustering  
+Uses synthetic PaySim transactions to compare fraud-risk models, build past-only account activity features, rank cases for review, and explain model signals. Includes a FastAPI service and Streamlit analyst dashboard.
 
-### 📈 Tools & Technologies
-- Power BI  
-- Excel  
-- Jupyter Notebook  
+**Tools:** Python, pandas, DuckDB, scikit-learn, LightGBM, NetworkX, FastAPI, Streamlit, Jupyter
 
+[Open the project](fraud-graph/README.md) · [Architecture](fraud-graph/docs/architecture.md) · [Model card](fraud-graph/docs/model_card.md)
 
+## Skills and tools
 
+- **Programming:** Python, SQL
+- **Analytics:** data cleaning, exploratory analysis, and visualization
+- **Machine learning:** regression, classification, decision trees, random forests, and clustering
+- **Tools:** Jupyter, VS Code, Power BI, Excel, Git, and GitHub
 
-## 📫 Connect With Me
-- 📧 Email: chrevanth1702@gmail.com  
-- 💼 LinkedIn: https://www.linkedin.com/in/revanthchetpelli/
+## Notes
 
-## 🔥 Goals
-- Build impactful AI/ML projects  
-- Contribute to open-source  
-- Become a skilled Data Scientist / ML Engineer  
-
----
-
-⭐ *"Transforming data into meaningful insights and intelligent solutions!"*
+The fraud project uses simulated data, and the mobility project uses historical January 2024 data. Neither project's demo results should be interpreted as a live production service or as proof of real-world model performance. Large source datasets, generated data, and trained model files are intentionally omitted; each project README explains how to prepare local files and run the project.

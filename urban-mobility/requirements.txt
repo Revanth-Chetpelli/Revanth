@@ -1,0 +1,15 @@
+pandas>=2.2,<3
+numpy>=1.26,<3
+pyarrow>=17,<25
+duckdb>=1.1,<2
+scikit-learn>=1.5,<2
+lightgbm>=4.5,<5
+fastapi>=0.115,<1
+requests>=2.32,<3
+uvicorn[standard]>=0.30,<1
+streamlit>=1.39,<2
+plotly>=5.24,<7
+geopandas>=1.0,<2
+folium>=0.18,<1
+holidays>=0.60,<1
+pytest>=8,<9
